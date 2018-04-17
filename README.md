@@ -53,6 +53,7 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
+swagger_client.configuration.host = 'YOUR_HOST'
 swagger_client.configuration.username = 'YOUR_USERNAME'
 swagger_client.configuration.password = 'YOUR_PASSWORD'
 # create an instance of the API class
@@ -70,7 +71,7 @@ except ApiException as e:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost/v2.0.0*
+All URIs are relative to *http://localhost:5271/v2.0.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
