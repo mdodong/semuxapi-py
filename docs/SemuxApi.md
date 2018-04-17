@@ -54,6 +54,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST'           
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -107,6 +108,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -160,6 +162,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -213,6 +216,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -266,6 +270,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -333,6 +338,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -386,6 +392,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -439,6 +446,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -496,6 +504,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -549,6 +558,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -602,6 +612,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -655,6 +666,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -704,6 +716,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -753,6 +766,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -802,6 +816,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -851,6 +866,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -900,6 +916,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -947,6 +964,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -996,6 +1014,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1049,6 +1068,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1102,6 +1122,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1151,6 +1172,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1206,6 +1228,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1259,6 +1282,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1308,6 +1332,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1365,6 +1390,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1420,6 +1446,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1475,6 +1502,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1536,6 +1564,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1595,6 +1624,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1652,6 +1682,7 @@ from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
 configuration = swagger_client.Configuration()
+configuration.host = 'YOUR_HOST' 
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
