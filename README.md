@@ -18,9 +18,9 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install directly from Github
 
 ```sh
-pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
+pip install git+https://github.com/mdodong/semuxapi-py.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/mdodong/semuxapi-py.git`)
 
 Then import the package:
 ```python
@@ -55,6 +55,7 @@ from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
 swagger_client.configuration.username = 'YOUR_USERNAME'
 swagger_client.configuration.password = 'YOUR_PASSWORD'
+swagger_client.configuration.host = 'YOUR_HOST'
 # create an instance of the API class
 api_instance = swagger_client.SemuxApi()
 node = 'node_example' # str | Address of the node in host:port format
