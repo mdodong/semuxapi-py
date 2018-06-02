@@ -1,9 +1,8 @@
-# TransactionType
+# PendingTransactionType
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**block_number** | **str** |  | [optional] 
 **hash** | **str** |  | [optional] 
 **type** | **str** |  | [optional] 
 **_from** | **str** | Sender&#39;s address | [optional] 

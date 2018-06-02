@@ -3,6 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**network** | **str** |  | [optional] 
+**capabilities** | **list[str]** |  | [optional] 
 **client_id** | **str** |  | [optional] 
 **coinbase** | **str** |  | [optional] 
 **latest_block_number** | **str** |  | [optional] 
