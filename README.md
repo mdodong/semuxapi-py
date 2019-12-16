@@ -46,6 +46,8 @@ import swagger_client
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
 ```python
+#! /usr/bin/env python
+
 from __future__ import print_function
 import time
 import swagger_client
@@ -53,19 +55,38 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
-swagger_client.configuration.host = 'YOUR_HOST'
-# create an instance of the API class
-api_instance = swagger_client.SemuxApi()
-node = 'node_example' # str | Address of the node in host:port format
+config = swagger_client.configuration.Configuration()
+config.username = "YOUR_USERNAME"
+config.password = "YOUR_PASSWORD"
 
+# Configure Base URL (contingent on host version, here v2.3.0)
+config.host = "http://127.0.0.1:5171/v2.3.0"
+
+# Create an instance of the API class
+client = swagger_client.api_client.ApiClient(configuration=config)
+instance = swagger_client.SemuxApi(client)
+
+# Example of API call with no parameters: get_info
+#    See: https://api.semux.online/#/semux/getInfo
 try:
-    # Add node
-    api_response = api_instance.add_node(node)
-    pprint(api_response)
+    print()
+    print("Blockchain Info")
+    response = instance.get_info()
+    pprint(response)
 except ApiException as e:
-    print("Exception when calling SemuxApi->add_node: %s\n" % e)
+   print("Exception when calling SemuxApi->add_node: %s\n" % e)
+
+# Example of API call with parameters: get_block_by_hash
+#    See: https://api.semux.online/#/semux/getBlockByHash
+try:
+    # First block
+    block = "0x3658883e499adf5cc791ca47ce592bdbb012f7ba1ca5ee3935ca7d3b78e46594"
+    print()
+    print("Block %s" % block)
+    response = instance.get_block_by_hash(block)
+    pprint(response)
+except ApiException as e:
+   print("Exception when calling SemuxApi->add_node: %s\n" % e)
 
 ```
 
